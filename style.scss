@@ -8,10 +8,13 @@
 header{
     background-color: #66bb6a;
     width: 100%;
-    height: 20vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
-    padding-left: 70px; //move internamente da esquerda para a direita
-    padding-top: 50px; //move internamente de cima para baixo
+    //padding-left: 70px; //move internamente da esquerda para a direita
+    //padding-top: 50px; //move internamente de cima para baixo
 
     //padding-right: 50px; //move internamente da direita para a esquerda
     //padding-bottom: 50px; //move internamente de baixo para cima
@@ -29,6 +32,7 @@ header{
        display: inline-block; //Deixa na mesma linha e permite o controle de larguras e alturas. <---- +importante, vamos utilizar apenas esse
        width: 30%;
        color: #ffffff;
+       font-family: "Sansita Swashed", system-ui;
     }
 
     nav{
@@ -40,10 +44,12 @@ header{
     a {
         margin-right: 20px;
         text-decoration: none; //tira a estilização padrão da tag <a>
+        color:#f1f8e9;
+        font-family: "Roboto", sans-serif;
     }
 
-    }   
-}
+    }  
+} 
 
 .background {
     height: 70vh;
@@ -54,10 +60,13 @@ header{
     text-align: center;
     padding-top: 180px;
 
+
     h1 {
         font-size: 5rem;
         margin-bottom: 30px;
         font-family: "Sansita Swashed", system-ui;
+        display: flex;
+        justify-content: center;
     }
 
     p {
@@ -66,6 +75,8 @@ header{
         margin-bottom: 50px;
         margin-left: 450px;
         font-family: "Roboto", sans-serif;
+        display: flex;
+        justify-content: center;
     }
 
     button {
@@ -75,6 +86,7 @@ header{
         padding: 15px 30px;
         border-radius: 30px;
         font-size: 1.45rem;
+
     }
 }
 
@@ -82,18 +94,17 @@ header{
     background-color: #f1f8e9;
     text-align: center;
     height: 55vh;
-
-
+    display: flex;
+    justify-content: space-around;
 }
 
-.card1 {
+.card {
     background-color: #ffffff;
     width: 20vw;
     height: 50vh;
     margin-top: 20px;
     box-shadow: 0 2px 6px rgb(0, 0, 0.1);
     border-radius: 50px;
-    display: inline-block;
 
     img{
         width: 100%;
@@ -122,14 +133,13 @@ header{
 }
 }
 
-.card2 {
+.card {
     background-color: #f7f7f7;
     width: 20vw;
     height: 50vh;
     margin-top: 20px;
     box-shadow: 0 2px 6px rgb(0, 0, 0.1);
     border-radius: 50px;
-    display: inline-block;
 
     img{
         width: 100%;
@@ -158,14 +168,13 @@ header{
     }
 }
 
-.card3 {
+.card {
     background-color: #ffffff;
     width: 20vw;
     height: 50vh;
     margin-top: 20px;
     box-shadow: 0 2px 6px rgb(0, 0, 0.1);
     border-radius: 50px;
-    display: inline-block;
 
     img{
         width: 100%;
@@ -194,14 +203,13 @@ header{
     }
 }
 
-.card4 {
+.card {
     background-color: #ffffff;
     width: 20vw;
     height: 50vh;
     margin-top: 20px;
     box-shadow: 0 2px 6px rgb(0, 0, 0.1);
     border-radius: 50px;
-    display: inline-block;
 
     img{
         width: 100%;
@@ -233,12 +241,37 @@ header{
 .formulário {
     background-color: #E8F5E9;
     text-align: center;
-    padding-top: 10px;
-    font-family: "Roboto", sans-serif;
-    text-align:center
+    padding: 1%;
+
+    h2 {
+        font-family: "Roboto", sans-serif;
+        color: #2A2A2A;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #767676;
+        font-family: "Roboto", sans-serif;
+        padding: 1%;
+        font-size: 1.25rem;
+    }
     
+    .input {
+        display: flex;
+        align-items: center;
+        height: 300px; 
+    }
+
+    button {
+        background-color: #66bb6a;
+        color: #ffffff;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 30px;
 }
 
+}
 
 footer {
     text-align: center;

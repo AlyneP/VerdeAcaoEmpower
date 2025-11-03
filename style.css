@@ -8,15 +8,17 @@
 header {
   background-color: #66bb6a;
   width: 100%;
-  height: 20vh;
-  padding-left: 70px;
-  padding-top: 50px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 header h2 {
   background-color: #66BB6A;
   display: inline-block;
   width: 30%;
   color: #ffffff;
+  font-family: "Sansita Swashed", system-ui;
 }
 header nav {
   display: inline-block;
@@ -26,6 +28,8 @@ header nav {
 header nav a {
   margin-right: 20px;
   text-decoration: none;
+  color: #f1f8e9;
+  font-family: "Roboto", sans-serif;
 }
 
 .background {
@@ -41,6 +45,8 @@ header nav a {
   font-size: 5rem;
   margin-bottom: 30px;
   font-family: "Sansita Swashed", system-ui;
+  display: flex;
+  justify-content: center;
 }
 .background p {
   font-size: 1.5rem;
@@ -48,6 +54,8 @@ header nav a {
   margin-bottom: 50px;
   margin-left: 450px;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 .background button {
   background-color: #66bb6a;
@@ -62,31 +70,32 @@ header nav a {
   background-color: #f1f8e9;
   text-align: center;
   height: 55vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-.card1 {
+.card {
   background-color: #ffffff;
   width: 20vw;
   height: 50vh;
   margin-top: 20px;
   box-shadow: 0 2px 6px rgb(0, 0, 0.1);
   border-radius: 50px;
-  display: inline-block;
 }
-.card1 img {
+.card img {
   width: 100%;
   border-radius: 50px 50px 0px 0px;
 }
-.card1 h3 {
+.card h3 {
   margin-top: 10px;
   font-size: 1.75rem;
   font-family: "Bad Script", cursive;
 }
-.card1 p {
+.card p {
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
 }
-.card1 button {
+.card button {
   margin-top: 30px;
   padding: 10px;
   background-color: #66bb6a;
@@ -96,29 +105,28 @@ header nav a {
   border-radius: 20px;
 }
 
-.card2 {
+.card {
   background-color: #f7f7f7;
   width: 20vw;
   height: 50vh;
   margin-top: 20px;
   box-shadow: 0 2px 6px rgb(0, 0, 0.1);
   border-radius: 50px;
-  display: inline-block;
 }
-.card2 img {
+.card img {
   width: 100%;
   border-radius: 50px 50px 0px 0px;
 }
-.card2 h3 {
+.card h3 {
   margin-top: 10px;
   font-size: 1.75rem;
   font-family: "Bad Script", cursive;
 }
-.card2 p {
+.card p {
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
 }
-.card2 button {
+.card button {
   margin-top: 30px;
   padding: 10px;
   background-color: #66bb6a;
@@ -128,29 +136,28 @@ header nav a {
   border-radius: 20px;
 }
 
-.card3 {
+.card {
   background-color: #ffffff;
   width: 20vw;
   height: 50vh;
   margin-top: 20px;
   box-shadow: 0 2px 6px rgb(0, 0, 0.1);
   border-radius: 50px;
-  display: inline-block;
 }
-.card3 img {
+.card img {
   width: 100%;
   border-radius: 50px 50px 0px 0px;
 }
-.card3 h3 {
+.card h3 {
   margin-top: 10px;
   font-size: 1.75rem;
   font-family: "Bad Script", cursive;
 }
-.card3 p {
+.card p {
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
 }
-.card3 button {
+.card button {
   margin-top: 30px;
   padding: 10px;
   background-color: #66bb6a;
@@ -160,29 +167,28 @@ header nav a {
   border-radius: 20px;
 }
 
-.card4 {
+.card {
   background-color: #ffffff;
   width: 20vw;
   height: 50vh;
   margin-top: 20px;
   box-shadow: 0 2px 6px rgb(0, 0, 0.1);
   border-radius: 50px;
-  display: inline-block;
 }
-.card4 img {
+.card img {
   width: 100%;
   border-radius: 50px 50px 0px 0px;
 }
-.card4 h3 {
+.card h3 {
   margin-top: 10px;
   font-size: 1.75rem;
   font-family: "Bad Script", cursive;
 }
-.card4 p {
+.card p {
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
 }
-.card4 button {
+.card button {
   margin-top: 30px;
   padding: 10px;
   background-color: #66bb6a;
@@ -195,9 +201,31 @@ header nav a {
 .formulário {
   background-color: #E8F5E9;
   text-align: center;
-  padding-top: 10px;
+  padding: 1%;
+}
+.formulário h2 {
   font-family: "Roboto", sans-serif;
-  text-align: center;
+  color: #2A2A2A;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.formulário p {
+  color: #767676;
+  font-family: "Roboto", sans-serif;
+  padding: 1%;
+  font-size: 1.25rem;
+}
+.formulário .input {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+.formulário button {
+  background-color: #66bb6a;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
 }
 
 footer {
