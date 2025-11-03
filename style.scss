@@ -10,8 +10,8 @@ header{
     width: 100%;
     height: 20vh;
     
-    //padding-left: 50px; //move internamente da esquerda para a direita
-    //padding-top: 50px; //move internamente de cima para baixo
+    padding-left: 70px; //move internamente da esquerda para a direita
+    padding-top: 50px; //move internamente de cima para baixo
 
     //padding-right: 50px; //move internamente da direita para a esquerda
     //padding-bottom: 50px; //move internamente de baixo para cima
@@ -56,15 +56,16 @@ header{
 
     h1 {
         font-size: 5rem;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         font-family: "Sansita Swashed", system-ui;
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 50%;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-left: 450px;
+        font-family: "Roboto", sans-serif;
     }
 
     button {
@@ -73,5 +74,167 @@ header{
         border: none;
         padding: 15px 30px;
         border-radius: 30px;
+        font-size: 1.45rem;
     }
+}
+
+.cards {
+    background-color: #f1f8e9;
+    text-align: center;
+    height: 55vh;
+
+
+}
+
+.card1 {
+    background-color: #ffffff;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0.1);
+    border-radius: 50px;
+    display: inline-block;
+
+    img{
+        width: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-family: "Bad Script", cursive;
+    }
+
+    p {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    button {
+        margin-top:30px;
+        padding: 10px;
+        background-color: #66bb6a;
+        color: #ffffff;
+        border: none;
+        font-size: 1.25rem;
+        border-radius: 20px;
+}
+}
+
+.card2 {
+    background-color: #f7f7f7;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0.1);
+    border-radius: 50px;
+    display: inline-block;
+
+    img{
+        width: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-family: "Bad Script", cursive;
+    }
+
+    p {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    button {
+        margin-top:30px;
+        padding: 10px;
+        background-color: #66bb6a;
+        color: #ffffff;
+        border: none;
+        font-size: 1.25rem;
+        border-radius: 20px;
+    }
+}
+
+.card3 {
+    background-color: #ffffff;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0.1);
+    border-radius: 50px;
+    display: inline-block;
+
+    img{
+        width: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-family: "Bad Script", cursive;
+    }
+
+    p {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    button {
+        margin-top:30px;
+        padding: 10px;
+        background-color: #66bb6a;
+        color: #ffffff;
+        border: none;
+        font-size: 1.25rem;
+        border-radius: 20px;
+    }
+}
+
+.card4 {
+    background-color: #ffffff;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0.1);
+    border-radius: 50px;
+    display: inline-block;
+
+    img{
+        width: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-family: "Bad Script", cursive;
+    }
+
+    p {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    button {
+        margin-top:30px;
+        padding: 10px;
+        background-color: #66bb6a;
+        color: #ffffff;
+        border: none;
+        font-size: 1.25rem;
+        border-radius: 20px;
+    }
+}
+
+.formulário {
+    background-color: #E8F5E9;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+
+
 }
